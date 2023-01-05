@@ -1,3 +1,4 @@
+/* Reset */
 *, 
 *:after,
 *:before {
@@ -6,3 +7,131 @@
   box-sizing: border-box;
 }
 
+/*Custom variables */
+:root{
+  /* Colors */
+  --cl-main-blue : #2460a6;
+  --cl-body-bg : #fafafa;
+  --cl-black : #000000;
+  --cl-white : #FFFFFF;
+  --gray-dark : #222222;
+  --gray-medium : #999999;
+  --gray-light : #CCCCCC;
+  --gray-lightest : #EEEEEE;
+}
+
+/*Main Set-up*/
+body{
+  font-family: sans-serif;
+  background-color: var(--cl-body-bg);
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Utility classes */
+.flex_container{
+  display: flex;
+}
+.grid_container{
+  display: grid;
+}
+.inline_padding{
+  padding-inline: 11%;
+}
+.bold{
+  font-weight: bold;
+}
+.btn{
+ padding: 0.7rem 2rem;
+ width: fit-content;
+}
+.btn_blue{
+  background-color: var(--cl-main-blue);
+  color: white;
+}
+.btn_white{
+  background-color: var(--cl-white);
+  color: var(--cl-main-blue);
+}
+
+/* top-nav */
+#top_nav{
+  background-color: var(--gray-lightest);
+  color: var(--cl-black);
+}
+#top_nav ul{
+  justify-content: end;
+}
+#top_nav ul li{
+  text-align: center;
+  padding: 1rem 2rem;
+  border-right: 1px dashed var(--gray-medium)
+}
+
+/* Main-nav */
+#main_nav{
+  background-color: var(--cl-white);
+  color: var(--cl-main-blue);
+  align-items: center;
+  padding-block: 1.2rem;
+}
+#main_nav img{
+  width : 11%;
+}
+#main_nav ul{
+  margin-left: 2rem;
+  gap:3.5rem
+}
+
+/* Section Hero */
+.hero_banner{
+  background-image: url(../img/hero_bg_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 50rem; */
+  color: white;
+  text-align: right;
+  padding-block: 16rem;
+}
+.hero_banner h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.hero_banner p{
+  margin-bottom: 1.5rem;
+}
+
+/* Section Call to action Offres */
+.cta_offers{
+  background-color: var(--cl-main-blue);
+  color: var(--cl-white);
+  text-align: center;
+  padding-block: 3rem;
+}
+.section_title{
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/* Section Véhicules */
+.vehicules{
+  padding-block: 2rem;
+}
+.model_cards_container{
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.model_card{
+  max-width: 30%;
+}
+.model_card img{
+  max-width: 100%;
+}
