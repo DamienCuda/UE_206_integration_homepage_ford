@@ -22,7 +22,7 @@
 
 /*Main Set-up*/
 body{
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--cl-body-bg);
 }
 li{
@@ -48,7 +48,7 @@ a{
 }
 .btn{
  padding: 0.7rem 2rem;
- width: fit-content;
+ width: max-content;
 }
 .btn_blue{
   background-color: var(--cl-main-blue);
@@ -126,12 +126,93 @@ a{
 }
 .model_cards_container{
   margin-top: 2rem;
-  flex-wrap: wrap;
   gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .model_card{
-  max-width: 30%;
+  box-shadow: 0 0 20px var(--gray-light);
 }
-.model_card img{
-  max-width: 100%;
+.card_img{
+  width: 100%;
+}
+
+.model_card_infos{
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+.card_title{
+  color: var(--cl-main-blue);
+}
+.card_text{
+  text-transform: uppercase;
+  color: var(--gray-dark);
+  font-size: 0.8rem;
+}
+
+/* Section Style */
+.styles{
+  background-color: var(--cl-black);
+  color: var(--cl-white);
+  padding-block: 3rem;
+}
+.style_section_title{
+  text-transform: uppercase;
+  font-size: 4.3rem;
+  text-align: end;
+}
+.style_card_container{
+  translate : 0 -20px;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.style_card{
+  position: relative;
+}
+.style_card_title{
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  padding: 1.2rem;
+  background-color: var(--cl-main-blue);
+  opacity: 0.8;
+  width: 100px;
+}
+.style_number{
+  font-size: 3rem;
+}
+.style_text{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+/* Footer */
+#main_footer{
+  padding-block: 3rem;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.footer_list_title{
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.footer_list{
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--gray-light);
+}
+.footer_list{
+  color: var(--cl-main-blue);
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+}
+.footer_list.grid_container{
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 800px) {
+  .footer_list.grid_container{
+    grid-template-columns: 1fr;
+  }
+  #main_footer{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
