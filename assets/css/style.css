@@ -60,7 +60,7 @@ li > a:hover{
 }
 .btn_blue:hover{
   background-color: var(--gray-dark);
-  border: 1px solid var(--cl-white);t;
+  border: 1px solid var(--cl-white);
 }
 .btn_white{
   background-color: var(--cl-white);
