@@ -59,7 +59,7 @@ a{
   color: var(--cl-main-blue);
 }
 
-/* top-nav */
+/* Top-nav */
 #top_nav{
   background-color: var(--gray-lightest);
   color: var(--cl-black);
@@ -94,7 +94,6 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 50rem; */
   color: white;
   text-align: right;
   padding-block: 16rem;
@@ -161,7 +160,7 @@ a{
   text-align: end;
 }
 .style_card_container{
-  translate : 0 -20px;
+  transform : translateY(-22px);
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -175,7 +174,7 @@ a{
   padding: 1.2rem;
   background-color: var(--cl-main-blue);
   opacity: 0.8;
-  width: 100px;
+  width: 120px;
 }
 .style_number{
   font-size: 3rem;
