@@ -49,24 +49,24 @@
         <section class="vehicules inline_padding">
             <h2 class="section_title">Un véhicule pour chaque style de vie</h2>
             <a class="btn btn_blue bold" href="#">Voir tous nos véhicules</a>
-            <div class="model_cards_container flex_container">
+            <div class="model_cards_container grid_container">
                 <div class="model_card">
                     <img class="card_img" src="assets/img/cars/nouvelle-focus.jpg" alt="Ford Focus break">
-                    <div>
+                    <div class="model_card_infos">
                         <h3 class="card_title">Nouvelle focus</h3>
                         <p class="card_text">suv & crossover</p>
                     </div>
                 </div>
                 <div class="model_card">
                     <img class="card_img" src="assets/img/cars/eco-sport.jpg" alt="Ford Eco Sport">
-                    <div>
+                    <div class="model_card_infos">
                         <h3 class="card_title">Eco sport</h3>
                         <p class="card_text">suv & crossover</p>
                     </div>
                 </div>
                 <div class="model_card">
                     <img class="card_img" src="assets/img/cars/gt.jpg" alt="Ford GT sport">
-                    <div>
+                    <div class="model_card_infos">
                         <h3 class="card_title">Ford GT</h3>
                         <p class="card_text">performance</p>
                     </div>
@@ -79,33 +79,33 @@
 
         <!-- Start section style-->
         <section class="styles inline_padding">
-            <h2 class="style_section_title">Choisis ton Style</h2>
-            <div class="style_card_container flex_container">
+            <h2 class="style_section_title bold">Choisis ton Style</h2>
+            <div class="style_card_container grid_container">
                 <div class="style_card">
-                    <img src="assets/img/styles/suv.jpg">
+                    <img class="card_img" src="assets/img/styles/suv.jpg">
                     <div class="style_card_title">
-                        <p class="style_number"></p>
+                        <p class="style_number">01</p>
                         <p class="style_text">Suv & crossover</p>
                     </div>
                 </div>
                 <div class="style_card">
-                    <img src="assets/img/styles/hybrides.jpg">
+                    <img class="card_img" src="assets/img/styles/hybrides.jpg">
                     <div class="style_card_title">
-                        <p class="style_number"></p>
+                        <p class="style_number">02</p>
                         <p class="style_text">Hybride</p>
                     </div>
                 </div>
                 <div class="style_card">
-                    <img src="assets/img/styles/performances.jpg">
+                    <img class="card_img" src="assets/img/styles/performances.jpg">
                     <div class="style_card_title">
-                        <p class="style_number"></p>
+                        <p class="style_number">03</p>
                         <p class="style_text">Performance</p>
                     </div>
                 </div>
                 <div class="style_card">
-                    <img src="assets/img/styles/utilitaires.jpg">
+                    <img class="card_img" src="assets/img/styles/utilitaires.jpg">
                     <div class="style_card_title">
-                        <p class="style_number"></p>
+                        <p class="style_number">04</p>
                         <p class="style_text">Utilitaires</p>
                     </div>
                 </div>
@@ -115,9 +115,9 @@
         <!-- End section style-->
     </main>
 
-    <footer class="flex_container inline_padding">
+    <footer id="main_footer" class="grid_container inline_padding">
         <div class="footer_list_container">
-            <h4 class="footer_list_title">Véhicules</h4>
+            <h4 class="footer_list_title bold">Véhicules</h4>
             <ul class="footer_list">
                 <li><a href="#">Véhicules Particuliers</a></li>
                 <li><a href="#">Utilitaires</a></li>
@@ -131,7 +131,7 @@
         </div>
 
         <div class="footer_list_container">
-            <h4 class="footer_list_title">Véhicules</h4>
+            <h4 class="footer_list_title bold">Découvrez Ford</h4>
             <ul class="footer_list">
                 <li><a href="#">À propos de Ford</a></li>
                 <li><a href="#">L'actualité Ford</a></li>
@@ -141,19 +141,23 @@
         </div>
 
         <div class="footer_list_container">
-            <h4 class="footer_list_title">Véhicules</h4>
-            <ul class="footer_list">
-                <li><a href="#">EcoSport</a></li>
-                <li><a href="#">Focus</a></li>
-                <li><a href="#">Mustang Mach-E</a></li>
-                <li><a href="#">Mustang</a></li>
-                <li><a href="#">Focus ST</a></li>
-                <li><a href="#">Tournéo Connect</a></li>
-                <li><a href="#">Puma</a></li>
-                <li><a href="#">Kuga</a></li>
-                <li><a href="#">Explorer</a></li>
-                <li><a href="#">Puma ST</a></li>
-                <li><a href="#">Ford GT</a></li>
+            <h4 class="footer_list_title bold">Véhicules</h4>
+            <ul class="footer_list grid_container">
+                <div>
+                    <li><a href="#">EcoSport</a></li>
+                    <li><a href="#">Focus</a></li>
+                    <li><a href="#">Mustang Mach-E</a></li>
+                    <li><a href="#">Mustang</a></li>
+                    <li><a href="#">Focus ST</a></li>
+                    <li><a href="#">Tournéo Connect</a></li>
+                </div>
+                <div>
+                    <li><a href="#">Puma</a></li>
+                    <li><a href="#">Kuga</a></li>
+                    <li><a href="#">Explorer</a></li>
+                    <li><a href="#">Puma ST</a></li>
+                    <li><a href="#">Ford GT</a></li>
+                </div>
             </ul>
         </div>
     </footer>
