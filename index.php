@@ -9,26 +9,9 @@
     <title>Ford | Accueil</title>
 </head>
 <body>
-    <header>
-        <nav id="top_nav" class="inline_padding bold">
-            <ul class="flex_container">
-                <li><a  href="#">Offres</a></li>
-                <li><a  href="#">Entreprises</a></li>
-                <li><a  href="#">Utilitaires</a></li>
-                <li><a  href="#">Occasions</a></li>
-            </ul>
-        </nav>
-        <nav id="main_nav" class="flex_container inline_padding bold">
-            <img src="assets/img/logo.png" alt="logo Ford">
-            <ul class="flex_container">
-                <li><a  href="#">Véhicules</a></li>
-                <li><a  href="#">Achat</a></li>
-                <li><a  href="#">Financement</a></li>
-                <li><a  href="#">Services</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier assets -> php-modules -->
+    <?php include 'assets/php-modules/header.php' ?>
+   
     <main>
         <!-- Start hero banner -->
         <section class="hero_banner inline_padding">
@@ -129,51 +112,7 @@
         <!-- End section style-->
     </main>
 
-    <footer id="main_footer" class="grid_container inline_padding">
-        <div class="footer_list_container">
-            <h4 class="footer_list_title bold">Véhicules</h4>
-            <ul class="footer_list">
-                <li><a href="#">Véhicules Particuliers</a></li>
-                <li><a href="#">Utilitaires</a></li>
-                <li><a href="#">Citadines</a></li>
-                <li><a href="#">Hybride et Électrique</a></li>
-                <li><a href="#">Familliales et Ludospaces</a></li>
-                <li><a href="#">Monospace</a></li>
-                <li><a href="#">Performance</a></li>
-                <li><a href="#">SUV</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_list_container">
-            <h4 class="footer_list_title bold">Découvrez Ford</h4>
-            <ul class="footer_list">
-                <li><a href="#">À propos de Ford</a></li>
-                <li><a href="#">L'actualité Ford</a></li>
-                <li><a href="#">Nous rejoindre</a></li>
-                <li><a href="#">Développement durable</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_list_container">
-            <h4 class="footer_list_title bold">Véhicules</h4>
-            <div class="footer_list grid_container">
-                <ul>
-                    <li><a href="#">EcoSport</a></li>
-                    <li><a href="#">Focus</a></li>
-                    <li><a href="#">Mustang Mach-E</a></li>
-                    <li><a href="#">Mustang</a></li>
-                    <li><a href="#">Focus ST</a></li>
-                    <li><a href="#">Tournéo Connect</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Puma</a></li>
-                    <li><a href="#">Kuga</a></li>
-                    <li><a href="#">Explorer</a></li>
-                    <li><a href="#">Puma ST</a></li>
-                    <li><a href="#">Ford GT</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        <!-- Le footer commun à chaque page est centralisé dans le fichier footer.php dans le dossier assets -> php-modules -->
+    <?php include 'assets/php-modules/footer.php' ?>
 </body>
 </html>
