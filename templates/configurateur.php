@@ -16,14 +16,19 @@
     <?php include '../assets/php-modules/header.php';?>
 <!-- DÉBUT DU MAIN -->
     <main>
+        <!-- Fil d'ariane -->
         <nav>
             <ul class="breadcrumb inline_padding">
                 <li><a href="../index.php">Accueil</a></li>
-                <li class="active"><a href="#">Configurateur</a></li>
+                <!-- L'utilisation d'un H1 ici permet ici de na pas laisser la page sans H1
+                    et d'utiliser d'autres heading dans la page sans problème de hierarchie -->
+                <li class="active"><a href="#"><h1>Configurateur</h1></a></li> 
             </ul>
         </nav>
-        <section id="configurateur" class="grid_container">
-            <div class="formulaire">
+        <!-- Section configurateur -->
+        <div id="configurateur" class="grid_container">
+            <!-- Formulaire -->
+            <aside class="formulaire">
                 <form action="#" method="POST">
                     <fieldset>
                         <label class="bold label" for="type">Type</label>
@@ -36,7 +41,7 @@
                     </fieldset>
                     <fieldset>
                         <label class="bold label" for="budget">Buget maximum</label>
-                        <input class="form_input" name="budget" id="budget"type="range" list="markers" min="2000" max="90000" step="1000">
+                        <input class="form_input" name="budget" id="budget" type="range" min="2000" max="90000" step="1000">
                         <div class="list_markers_container">
                             <span class="list_markers bold">|</span>
                             <span class="list_markers bold">|</span>
@@ -94,14 +99,96 @@
                         </div>
                     </fieldset>
                 </form>
-            </div>
-            <div class="result_card_container">
-                <div class="result_card">
-
+            </aside>
+            <!-- Cartes résuktats -->
+            <div class="result_card_container flex_container wrap">
+                    <a href="#" title="Modéle configuré">
+                        <article class="result_card">
+                            <div class="result_card_header">
+                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                                <p class="result_card_price">20.000€</p>
+                            </div>
+                            <div class="result_card_infos">
+                                <h2 class="modele_name bold">1.0 ecoboost hybrid 125 ch powershift</h2>
+                                <div class="modele_infos">
+                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
+                                </div>
+                                <div class="result_card_link">
+                                    <p>Choisir ce véhicule</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" title="Modéle configuré">
+                        <article class="result_card">
+                            <div class="result_card_header">
+                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                                <p class="result_card_price">20.000€</p>
+                            </div>
+                            <div class="result_card_infos">
+                                <h2 class="modele_name bold">1.0 ecoboost hybrid 125 ch powershift</h2>
+                                <div class="modele_infos">
+                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
+                                </div>
+                                <div class="result_card_link">
+                                    <p>Choisir ce véhicule</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" title="Modéle configuré">
+                        <article class="result_card">
+                            <div class="result_card_header">
+                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                                <p class="result_card_price">20.000€</p>
+                            </div>
+                            <div class="result_card_infos">
+                                <h2 class="modele_name bold">1.0 ecoboost hybrid 125 ch powershift</h2>
+                                <div class="modele_infos">
+                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
+                                </div>
+                                <div class="result_card_link">
+                                    <p>Choisir ce véhicule</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" title="Modéle configuré">
+                        <article class="result_card">
+                            <div class="result_card_header">
+                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                                <p class="result_card_price">20.000€</p>
+                            </div>
+                            <div class="result_card_infos">
+                                <h2 class="modele_name bold">1.0 ecoboost hybrid 125 ch powershift</h2>
+                                <div class="modele_infos">
+                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
+                                </div>
+                                <div class="result_card_link">
+                                    <p>Choisir ce véhicule</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
                 </div>
-            </div>
 
-        </section>
+        </div>
     </main>
     <!-- FIN DU MAIN -->
 
