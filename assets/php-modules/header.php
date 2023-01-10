@@ -11,24 +11,24 @@
 <header>
     <nav id="top_nav" class="inline_padding bold">
         <ul class="flex_container wrap">
-            <li><a  href="#">Offres</a></li>
-            <li><a  href="#">Entreprises</a></li>
-            <li><a  href="#">Utilitaires</a></li>
-            <li><a  href="#">Occasions</a></li>
+            <li><a  href="#" title="Vers les offres">Offres</a></li>
+            <li><a  href="#" title="Pour les Entreprises">Entreprises</a></li>
+            <li><a  href="#" title="Vers les utilitaires">Utilitaires</a></li>
+            <li><a  href="#" title="Vers les occasions">Occasions</a></li>
         </ul>
     </nav>
 
     <div id="main_nav" class="grid_container inline_padding bold">
         <div id="nav_logo">
-            <a href="<?=$pathname.'index.php'?>"><img src="<?=$pathname.'assets/img/logo.png'?>" alt="logo Ford"></a> 
+            <a href="<?=$pathname.'index.php'?>" title="Vers l'accueil"><img src="<?=$pathname.'assets/img/logo.png'?>" alt="logo Ford"></a> 
         </div>
         <nav>
             <ul class="flex_container wrap">
-                <li><a  href="#">Véhicules</a></li>
-                <li><a  href="#">Achat</a></li>
-                <li><a  href="#">Financement</a></li>
-                <li><a  href="#">Services</a></li>
-                <li><a  href="<?=$pathname.'templates/configurateur.php'?>">Configurateur</a></li>
+                <li><a  href="#" title="Vers les véhicules">Véhicules</a></li>
+                <li><a  href="#" title="Vers les achats">Achat</a></li>
+                <li><a  href="#" title="Vers le financement">Financement</a></li>
+                <li><a  href="#" title="Vers les services">Services</a></li>
+                <li><a  href="<?=$pathname.'templates/configurateur.php'?>" title="Vers le configurateur">Configurateur</a></li>
             </ul>
         </nav>
     </div>
