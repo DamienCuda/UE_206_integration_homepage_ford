@@ -35,7 +35,7 @@
         <section class="vehicules inline_padding">
             <h2 class="section_title">Un véhicule pour chaque style de vie</h2>
             <a class="btn btn_blue bold" href="#">Voir tous nos véhicules</a>
-            <article class="model_cards_container grid_container">
+            <div class="model_cards_container grid_container">
                 <a href="#" title="Nouvelle Focus">
                     <article class="model_card">
                         <img class="card_img" src="assets/img/cars/nouvelle-focus.jpg" alt="Ford Focus break">
@@ -63,7 +63,7 @@
                         </div>
                     </article>
                 </a>
-            </article>
+            </div>
 
 
         </section>
@@ -72,7 +72,7 @@
         <!-- Start section style-->
         <section class="styles inline_padding">
             <h2 class="style_section_title bold">Choisis ton Style</h2>
-            <article class="style_card_container grid_container">
+            <div class="style_card_container grid_container">
                 <a href="#" title="SUV & Crossover">
                     <article class="style_card">
                         <img class="card_img" src="assets/img/styles/suv.jpg" alt="Style SUV">
@@ -109,7 +109,7 @@
                         </div>
                     </article>
                 </a>
-            </article>
+            </div>
 
         </section>
         <!-- End section style-->
