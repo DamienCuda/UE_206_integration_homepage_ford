@@ -1,12 +1,21 @@
-<!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier -> php-modules -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/configurateur.css">
+    <title>Ford | Accueil</title>
+</head>
 
-<?php 
-$title = 'Accueil';
-include 'php-modules/header.php' ?>
-
+<body>
+    <!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier -> php-modules -->
+    <?php include 'assets/php-modules/header.php' ?>
+    
     <!-- DÉBUT DU MAIN -->
     <main>
-
         <!-- Start hero banner -->
         <section class="hero_banner inline_padding">
                 <h1>Connectivité Fordpass</h1>
@@ -107,5 +116,7 @@ include 'php-modules/header.php' ?>
     </main>
     <!-- FIN DU MAIN -->
 
+    <?php include 'assets/php-modules/footer.php' ?>
 
-    <?php include 'php-modules/footer.php' ?>
+</body>
+</html>
