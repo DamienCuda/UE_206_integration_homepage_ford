@@ -1,0 +1,122 @@
+/* Section Hero */
+.hero_banner{
+  background-image: url(../img/hero_bg_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  padding-block: 16rem;
+}
+.hero_banner h1{
+  font-size: clamp(1rem, 3rem, 4rem);
+  text-transform: uppercase;
+}
+.hero_banner p{
+  margin-bottom: 1.5rem;
+}
+/* Section Call to action Offres */
+.cta_offers{
+  background-color: var(--cl-main-blue);
+  color: var(--cl-white);
+  text-align: center;
+  padding-block: 3rem;
+}
+.section_title{
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/* Section Véhicules */
+.vehicules{
+  padding-block: 2rem;
+}
+.model_cards_container{
+  margin-top: 2rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.model_card{
+  box-shadow: 0 0 20px var(--gray-light);
+  transition: all 200ms ease-in-out;
+}
+.model_card:hover{
+  scale: 1.05;
+}
+.card_img{
+  width: 100%;
+}
+
+.model_card_infos{
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+.card_title{
+  color: var(--cl-main-blue);
+}
+.card_text{
+  text-transform: uppercase;
+  color: var(--gray-dark);
+  font-size: 0.8rem;
+}
+
+/* Section Style */
+.styles{
+  background-color: var(--cl-black);
+  color: var(--cl-white);
+  padding-block: 3rem;
+}
+.style_section_title{
+  text-transform: uppercase;
+  font-size: 4.3rem;
+  text-align: end;
+}
+.style_card_container{
+  transform : translateY(-22px);
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+}
+.style_card{
+  position: relative;
+  transition: all 200ms ease-in-out;
+}
+.style_card:hover{
+  scale: 1.05;
+}
+.style_card_title{
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  padding: 1.2rem;
+  background-color: var(--cl-main-blue);
+  opacity: 0.8;
+  width: 120px;
+}
+.style_number{
+  font-size: 3rem;
+}
+.style_text{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+  .hero_banner{
+    text-align: center;
+    padding: 8rem 11%;
+  }
+  .hero_banner h1{
+    font-size: 2rem;
+  }
+  .vehicules{
+    text-align: center;
+  }
+  .style_section_title{
+    font-size: 3rem;
+  }
+  .style_card_container{
+    transform : translateY(-15px);
+  }
+}
