@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="../assets/css/configurateur.css">
     <title>Ford | Configurateur</title>
 </head>
-<!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier -> php-modules -->
-
 
 <body>
+    <!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier assets -> php-modules -->
     <?php include '../assets/php-modules/header.php';?>
 <!-- DÉBUT DU MAIN -->
     <main>
@@ -192,7 +191,7 @@
     </main>
     <!-- FIN DU MAIN -->
 
-    <!-- Le footer commun à chaque page est centralisé dans le fichier footer.php dans le dossier -> php-modules -->
+    <!-- Le footer commun à chaque page est centralisé dans le fichier footer.php dans le dossier assets -> php-modules -->
     <?php include '../assets/php-modules/footer.php' ?>
 
 </body>
