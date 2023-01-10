@@ -105,6 +105,10 @@ li > a:hover{
   margin-left: 2rem;
   gap:3.5rem
 }
+/* preparation pour un futur ajout de classe en JS */
+#main_nav ul li.active{
+  text-decoration: underline;
+}
 
 /* Footer */
 #main_footer{
