@@ -35,35 +35,35 @@
         <section class="vehicules inline_padding">
             <h2 class="section_title">Un véhicule pour chaque style de vie</h2>
             <a class="btn btn_blue bold" href="#">Voir tous nos véhicules</a>
-            <div class="model_cards_container grid_container">
-                <a href="#">
-                    <div class="model_card">
+            <article class="model_cards_container grid_container">
+                <a href="#" title="Nouvelle Focus">
+                    <article class="model_card">
                         <img class="card_img" src="assets/img/cars/nouvelle-focus.jpg" alt="Ford Focus break">
                         <div class="model_card_infos">
                             <h3 class="card_title">Nouvelle focus</h3>
                             <p class="card_text">suv & crossover</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-                <a href="#">
-                    <div class="model_card">
+                <a href="#" title="Eco Sport">
+                    <article class="model_card">
                         <img class="card_img" src="assets/img/cars/eco-sport.jpg" alt="Ford Eco Sport">
                         <div class="model_card_infos">
                             <h3 class="card_title">Eco sport</h3>
                             <p class="card_text">suv & crossover</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-                <a href="#">
-                    <div class="model_card">
+                <a href="#" title="Ford GT">
+                    <article class="model_card">
                         <img class="card_img" src="assets/img/cars/gt.jpg" alt="Ford GT sport">
                         <div class="model_card_infos">
                             <h3 class="card_title">Ford GT</h3>
                             <p class="card_text">performance</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-            </div>
+            </article>
 
 
         </section>
@@ -72,44 +72,44 @@
         <!-- Start section style-->
         <section class="styles inline_padding">
             <h2 class="style_section_title bold">Choisis ton Style</h2>
-            <div class="style_card_container grid_container">
-                <a href="#">
-                    <div class="style_card">
+            <article class="style_card_container grid_container">
+                <a href="#" title="SUV & Crossover">
+                    <article class="style_card">
                         <img class="card_img" src="assets/img/styles/suv.jpg" alt="Style SUV">
                         <div class="style_card_title">
                             <p class="style_number">01</p>
                             <p class="style_text">Suv & crossover</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-                <a href="#">
-                    <div class="style_card">
+                <a href="#" title="Hybride">
+                    <article class="style_card">
                         <img class="card_img" src="assets/img/styles/hybrides.jpg" alt="Style Hybride">
                         <div class="style_card_title">
                             <p class="style_number">02</p>
                             <p class="style_text">Hybride</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-                <a href="#">
-                    <div class="style_card">
+                <a href="#" title="Performance">
+                    <article class="style_card">
                         <img class="card_img" src="assets/img/styles/performances.jpg" alt="Style Performance">
                         <div class="style_card_title">
                             <p class="style_number">03</p>
                             <p class="style_text">Performance</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-                <a href="#">
-                    <div class="style_card">
+                <a href="#" title="Utilitaires">
+                    <article class="style_card">
                         <img class="card_img" src="assets/img/styles/utilitaires.jpg" alt="Style Utilitaires">
                         <div class="style_card_title">
                             <p class="style_number">04</p>
                             <p class="style_text">Utilitaires</p>
                         </div>
-                    </div>
+                    </article>
                 </a>
-            </div>
+            </article>
 
         </section>
         <!-- End section style-->
