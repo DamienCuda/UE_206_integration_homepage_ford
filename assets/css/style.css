@@ -86,6 +86,15 @@ li > a:hover{
   padding: 1rem 2rem;
   border-right: 1px dashed var(--gray-medium)
 }
+@media (max-width: 1000px) {
+  #top_nav ul{
+    display: block;
+  }
+  #top_nav ul li{
+    text-align: left;
+    border-right: none;
+  }
+}
 
 /* Main-nav */
 #main_nav{
@@ -93,9 +102,10 @@ li > a:hover{
   color: var(--cl-main-blue);
   align-items: center;
   padding-block: 1.2rem;
+  grid-template-columns: 15% 1fr;
 }
-#main_nav img{
-  width : 11%;
+#nav_logo a img{
+ width: 100%;
 }
 #main_nav ul{
   margin-left: 2rem;
