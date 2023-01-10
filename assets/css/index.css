@@ -42,7 +42,7 @@
   transition: all 200ms ease-in-out;
 }
 .model_card:hover{
-  scale: 1.05;
+  transform: scale(1.05);
 }
 .card_img{
   width: 100%;
@@ -82,7 +82,7 @@
   transition: all 200ms ease-in-out;
 }
 .style_card:hover{
-  scale: 1.05;
+  transform: scale(1.05);
 }
 .style_card_title{
   position: absolute;
