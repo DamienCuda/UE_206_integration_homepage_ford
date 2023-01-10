@@ -26,7 +26,7 @@
         <div class="footer_list_container">
             <h4 class="footer_list_title bold">Véhicules</h4>
             <div class="footer_list">
-                <ul class="flex_container">
+                <ul class="flex_container wrap">
                     <li><a href="#" title="EcoSport">EcoSport</a></li>
                     <li><a href="#" title="Focus">Focus</a></li>
                     <li><a href="#" title="Mustang Mach-E">Mustang Mach-E</a></li>
