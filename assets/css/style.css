@@ -236,12 +236,19 @@ li > a:hover{
   line-height: 1.4rem;
   font-size: 0.9rem;
 }
+.footer_list ul.flex_container{
+  flex-wrap: wrap;
+}
+.footer_list ul.flex_container li {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
 .footer_list.grid_container{
   grid-template-columns: 1fr 1fr;
 }
-@media (max-width: 800px) {
-  .footer_list.grid_container{
-    grid-template-columns: 1fr;
+@media (max-width: 1000px) {
+  .footer_list ul.flex_container {
+    flex-direction: column;
   }
   #main_footer{
     grid-template-columns: repeat(3, 1fr);
