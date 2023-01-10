@@ -18,7 +18,7 @@
     <main>
         <nav>
             <ul class="breadcrumb inline_padding">
-                <li><a href="index.php">Accueil</a></li>
+                <li><a href="../index.php">Accueil</a></li>
                 <li class="active"><a href="#">Configurateur</a></li>
             </ul>
         </nav>

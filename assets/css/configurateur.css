@@ -9,7 +9,6 @@
 .breadcrumb li.active {
     color: var(--cl-black);
 }
-    
 .breadcrumb li:not(:last-child)::after {
     display: inline-block;
     margin: 0 .25rem;
