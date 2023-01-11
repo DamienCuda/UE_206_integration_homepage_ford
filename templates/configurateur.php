@@ -65,19 +65,16 @@
                         <p class="bold label">Couleur carosserie</p>
                         <div class="couleur_wrapper grid_container wrap">
                             <div class="couleur_container flex_container">
-                                <label class="bold" for="abyss">Bleu abysse
                                 <input type="radio" id="abyss" name="couleur">
-                                </label>
+                                <label class="bold" for="abyss">Bleu abysse</label>
                             </div>
                             <div class="couleur_container">
-                                <label class="bold" for="corail">Corail
                                 <input type="radio" id="corail" name="couleur">
-                                </label>
+                                <label class="bold" for="corail">Corail</label>
                             </div>
-                            <div class="couleur_container">
-                                <label class="bold" for="moutarde">Moutarde
+                            <div class="couleur_container">                                
                                 <input type="radio" id="moutarde" name="couleur">
-                                </label>
+                                <label class="bold" for="moutarde">Moutarde</label>
                             </div>
                             <div class="couleur_container">
                                 <input type="radio" id="island" name="couleur">
