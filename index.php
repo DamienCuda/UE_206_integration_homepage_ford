@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier asssets -> php-modules -->
-    <?php include 'assets/php-modules/header.php' ?>
+    <!-- Le header commun à chaque page est centralisé dans le fichier header.php dans le dossier templates -> includes  -->
+    <?php include 'templates/includes/header.php' ?>
     
     <!-- DÉBUT DU MAIN -->
     <main>
@@ -116,8 +116,8 @@
     </main>
     <!-- FIN DU MAIN -->
 
-    <!-- Le footer commun à chaque page est centralisé dans le fichier footer.php dans le dossier assets -> php-modules -->
-    <?php include 'assets/php-modules/footer.php' ?>
+    <!-- Le footer commun à chaque page est centralisé dans le fichier footer.php dans le dossier templates -> includes -->
+    <?php include 'templates/includes/footer.php' ?>
 
 </body>
 </html>
