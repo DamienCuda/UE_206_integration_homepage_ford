@@ -1,3 +1,13 @@
+<?php
+// On vérifie l'url pour ajuster les chemins relatifs des liens
+    $pathname = $_SERVER['PHP_SELF'];
+    if (strpos($pathname, 'index.php') !== false){
+        $pathname ="templates/";
+    }else{
+        $pathname = "";
+    }
+?>
+
 <footer id="main_footer" class="grid_container inline_padding">
     <div class="footer_list_container">
         <h4 class="footer_list_title bold">Véhicules</h4>
@@ -17,6 +27,7 @@
         <h4 class="footer_list_title bold">Découvrez Ford</h4>
         <ul class="footer_list">
             <li><a href="#" title="À propos de Ford">À propos de Ford</a></li>
+            <li><a href="<?=$pathname.'contact.php'?>" title="À propos de Ford">Concession Limoges</a></li>
             <li><a href="#" title="L'actualité Ford">L'actualité Ford</a></li>
             <li><a href="#" title="Nous rejoindre">Nous rejoindre</a></li>
             <li><a href="#" title="Développement durable">Développement durable</a></li>
