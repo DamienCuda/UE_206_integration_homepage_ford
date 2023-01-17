@@ -29,7 +29,6 @@
                 <li><a  href="#" title="Vers le financement">Financement</a></li>
                 <li><a  href="#" title="Vers les services">Services</a></li>
                 <li><a  href="<?=$pathname.'templates/configurateur.php'?>" title="Vers le configurateur">Configurateur</a></li>
-                <li><a  href="<?=$pathname.'templates/contact.php'?>" title="Vers la page de contact">Contact</a></li>
             </ul>
         </nav>
     </div>
