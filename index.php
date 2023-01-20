@@ -1,5 +1,5 @@
-<!-- variable du breadcrumb -->
-<?php $breadcrumb_title = 'Accueil' ?>
+<!-- variable du breadcrumb et page title-->
+<?php $page_title = 'Accueil' ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/configurateur.css">
-    <title>Ford | <?= $breadcrumb_title?></title>
+    <title>Ford | <?= $page_title?></title>
 </head>
 
 <body>
