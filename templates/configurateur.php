@@ -1,3 +1,6 @@
+<!-- variable du breadcrumb -->
+<?php $breadcrumb_title = 'Configurateur' ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,14 +20,8 @@
 <!-- DÉBUT DU MAIN -->
     <main>
         <!-- Fil d'ariane -->
-        <nav>
-            <ul class="breadcrumb inline_padding">
-                <li><a href="../index.php">Accueil</a></li>
-                <!-- L'utilisation d'un H1 ici permet ici de na pas laisser la page sans H1
-                    et d'utiliser d'autres heading dans la page sans problème de hierarchie -->
-                <li class="active"><a href="#"><h1>Configurateur</h1></a></li> 
-            </ul>
-        </nav>
+        <?php include 'includes/breadcrumb.php' ?>
+
         <!-- Section configurateur -->
         <div id="configurateur" class="grid_container">
             <!-- Formulaire -->
