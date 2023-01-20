@@ -11,6 +11,8 @@
 :root{
   /* Colors */
   --cl-main-blue : #2460a6;
+  --cl-dark-blue :#18467A;
+  --cl-light-blue : #4380C3;
   --cl-body-bg : #fafafa;
   --cl-black : #000000;
   --cl-white : #FFFFFF;
@@ -75,6 +77,15 @@ li > a:hover{
   background-color: var(--cl-main-blue);
   border: 1px solid var(--cl-white);
 }
+.text_center{
+  text-align: center;
+}
+.dark_blue_bg{
+  background-color: var(--cl-dark-blue);
+}
+.text_shadow{
+  text-shadow: 3px 3px 0 black;
+}
 
 /* Top-nav */
 #top_nav{
@@ -137,6 +148,70 @@ li > a:hover{
   grid-template-columns: 1fr 1fr;
 }
 
+
+/* Actualités */
+#actualites_articles{
+  margin-block: 2rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+#actualites_header{
+  background-image: url(../img/events.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-block: 2rem;
+}
+#actualites_header .contact_subtitles{
+  margin-bottom: 2rem;
+}
+#actualites_header .btn_blue{
+  padding: 0.5rem 2rem;
+  margin-left: 50%;
+}
+.actualite{
+  box-shadow: 0 0 20px var(--gray-light);
+  transition: all 200ms ease-in-out;
+}
+.actualite:hover{
+  transform: scale(1.05);
+}
+.news_card_img{
+  width: 100%;
+  object-fit: cover;
+}
+.news_card_info{
+  flex-direction: column;
+  justify-items: end;
+  padding: 2rem 1rem 1rem;
+  height: 15rem;
+  position: relative;
+}
+.news_card_date{
+  padding: 0.5rem 1rem;
+  background-color: var(--cl-black);
+  box-shadow: 0 0 12px var(--gray-light);
+  color: var(--cl-white);
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  left : 0;
+  transform: translateY(-50%);
+}
+.news_card_title{
+  text-transform: uppercase;
+}
+.news_card_link{
+  margin-top: auto;
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+
+/* Media queries */
+
 @media(max-width : 45em){
   #top_nav, #main_nav, #main_footer{
     padding-inline: 5%;
@@ -169,11 +244,14 @@ li > a:hover{
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 68em) {
   .footer_list ul.flex_container {
     flex-direction: column;
   }
   #main_footer{
     grid-template-columns: repeat(3, 1fr);
   }
+  #actualites_articles{
+    padding-inline: 5%;
+}
 }

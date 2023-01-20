@@ -19,7 +19,6 @@
 .cta_offers{
   background-color: var(--cl-main-blue);
   color: var(--cl-white);
-  text-align: center;
   padding-block: 3rem;
 }
 .section_title{
@@ -102,7 +101,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 68em) {
   .hero_banner{
     text-align: center;
     padding: 8rem 11%;

@@ -20,10 +20,22 @@
 
 <!-- DÉBUT DU MAIN -->
     <main>
+        <!-- Section hero -->
+
         <!-- Fil d'ariane -->
         <?php include 'includes/breadcrumb.php' ?>
 
-        <!-- Section configurateur -->
+        <!-- Section infos concession -->
+
+        <!-- Section service -->
+
+        <!-- Section RDV -->
+
+        <!-- Section actualités -->
+        <?php include 'includes/actualites.php' ?>
+
+        <!-- Section newsletter -->
+        
 
     </main>
     <!-- FIN DU MAIN -->

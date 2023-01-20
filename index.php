@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/configurateur.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>Ford | <?= $page_title?></title>
 </head>
 
@@ -28,7 +29,7 @@
         <!-- End hero banner -->
 
         <!-- Start Call to action offres-->
-        <section class="cta_offers">
+        <section class="cta_offers text_center">
             <h2 class="section_title">Profitez de nos offres du moment</h2>
             <a class="btn btn_white bold" href="#">Voir les offres</a>
         </section>
@@ -116,6 +117,10 @@
 
         </section>
         <!-- End section style-->
+
+        <!-- Section actualités -->
+        <?php include 'templates/includes/actualites.php' ?>
+        <!-- End section actualités-->
     </main>
     <!-- FIN DU MAIN -->
 
