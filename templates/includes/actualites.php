@@ -24,7 +24,7 @@ $actualites = [
     ],
     "2" => [
         "date"      => "04<br/>Déc.",
-        "img"       => $pathname."assets/img/joyeuses-fetes.jpg",
+        "img"       => $pathname."assets/img/world.jpg",
         "titre"     => "les 7 nouveaux véhicules connectés qui ouvrent la voie à un avenir 100% électrique en europe pour ford",
         "url_cible" => "#",
     ],
