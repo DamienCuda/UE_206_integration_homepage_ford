@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../assets/css/index.css">
     <link rel="stylesheet" href="../assets/css/configurateur.css">
     <link rel="stylesheet" href="../assets/css/contact.css">
-    <title>Ford | Configurateur</title>
+    <title>Ford | <?= $breadcrumb_title?></title>
 </head>
 
 <body>
