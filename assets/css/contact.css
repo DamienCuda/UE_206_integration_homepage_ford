@@ -2,4 +2,161 @@
     text-transform: uppercase;
     font-size: 3rem;
     text-shadow: 3px 3px 0 black;
+    margin-bottom: 1rem;
 }
+.contact_sub{
+    margin-bottom: 1.5rem;
+}
+.section_bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-block: 2rem;
+}
+.infos_btn_container{
+    gap: 1rem;
+}
+.infos_btn{
+    display: inline-block;
+    width: 100%;
+    padding-block: 0.8rem;
+    text-align: center;
+}
+#concession_hero{
+    background-image: url(../img/page-contact.jpg);
+}
+#concession_infos_container{
+    margin-block: 3rem;
+}
+#concession_infos{
+    background-color: var(--cl-main-blue);
+    color: var(--cl-white);
+    padding: 2rem;
+    grid-template-columns: 30% 40% 25%;
+    gap: 1.5rem;
+}
+.infos_titles{
+    border-bottom: 2px solid var(--cl-white);
+    margin-bottom: 0.7rem;
+}
+#adresse p{
+    font-style: italic;
+    margin-bottom: 2.5rem;
+}
+#horaires{
+    grid-template-columns: repeat(3, 1fr);
+}
+#horaires div p {
+    margin-bottom: 0.5rem;
+}
+.am p, .pm p{
+    text-align: end;
+}
+#services{
+    color: var(--cl-white);
+    text-align: left;
+    padding-block: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+#services a{
+    padding: 3rem;
+    transition: all 200ms ease-in-out;
+    flex: 1 1 30%;
+}
+#services a:hover{
+    transform: scale(1.05);
+}
+#services a:nth-child(1){
+    background-color: var(--cl-dark-blue);
+}
+#services a:nth-child(2){
+    background-color: var(--cl-main-blue);
+}
+#services a:nth-child(3){
+    background-color: var(--cl-light-blue);
+}
+.service_sub{
+    margin-top: 2rem;
+}
+
+#rdv{
+    background-image: url(../img/page-contact-form.jpg);
+}
+
+#services_heading{
+    background-image: url(../img/page-contact-services.jpg);
+}
+
+#rdv_form{
+    padding: 3rem 6% 5rem 6%;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--cl-white);
+    column-gap: 6rem;
+}
+#rdv_form fieldset{
+    border: none;
+    padding: 2rem 3rem 1rem 3rem;
+    background-color: var(--cl-light-blue);
+    gap: 1rem;
+}
+#rdv_form fieldset legend{
+    background-color: var(--cl-black);
+    padding: 0.5rem 1rem;
+    transform: translate(-20px);
+}
+#rdv_form input, #rdv_form select, #rdv_form textarea{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+::placeholder{
+    font-style: italic;
+}
+
+#rdv_form button{
+    grid-column: 1 / span 2;
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+@media(max-width : 63em){
+    #concession_infos_container{
+        padding-inline: 0;
+    }
+    #concession_infos{
+        grid-template-columns: 1fr;
+        padding-inline: 5%;
+    }
+    .contact_titles{
+        font-size: 2rem;
+    }
+    #adresse{
+        order: 3;
+    }
+    #services{
+        padding-inline: 0;
+        gap: 0.5rem;
+    }
+    #services a{
+        padding-block: 1rem;
+        flex: 1 1 100%;
+    }
+    #rdv_form{
+        padding: 3rem 0 5rem 0;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    #rdv_form button{
+        grid-column: 1;
+    }
+    #rdv_form fieldset{
+        padding: 2rem 10% 1rem 10%;
+    }
+}
+
+

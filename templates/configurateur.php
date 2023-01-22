@@ -96,93 +96,95 @@
             </aside>
             <!-- Cartes résuktats -->
             <div class="result_card_container flex_container wrap">
-                    <a href="#" title="Modéle configuré">
-                        <article class="result_card">
-                            <div class="result_card_header">
-                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
-                                <p class="result_card_price text_center">20.000€</p>
+                <a href="#" title="Modéle configuré">
+                    <article class="result_card">
+                        <div class="result_card_header">
+                            <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                            <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                        <div class="result_card_infos">
+                            <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
+                            <div class="modele_infos">
+                                <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
                             </div>
-                            <div class="result_card_infos">
-                                <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
-                                <div class="modele_infos">
-                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
-                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
-                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
-                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
-                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
-                                </div>
-                                <div class="result_card_link text_center">
-                                    <p>Choisir ce véhicule</p>
-                                </div>
+                            <div class="result_card_link text_center">
+                                <p>Choisir ce véhicule</p>
                             </div>
-                        </article>
-                    </a>
-                    <a href="#" title="Modéle configuré">
-                        <article class="result_card">
-                            <div class="result_card_header">
-                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
-                                <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" title="Modéle configuré">
+                    <article class="result_card">
+                        <div class="result_card_header">
+                            <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                            <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                        <div class="result_card_infos">
+                            <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
+                            <div class="modele_infos">
+                                <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
                             </div>
-                            <div class="result_card_infos">
-                                <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
-                                <div class="modele_infos">
-                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
-                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
-                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
-                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
-                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
-                                </div>
-                                <div class="result_card_link text_center">
-                                    <p>Choisir ce véhicule</p>
-                                </div>
+                            <div class="result_card_link text_center">
+                                <p>Choisir ce véhicule</p>
                             </div>
-                        </article>
-                    </a>
-                    <a href="#" title="Modéle configuré">
-                        <article class="result_card">
-                            <div class="result_card_header">
-                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
-                                <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" title="Modéle configuré">
+                    <article class="result_card">
+                        <div class="result_card_header">
+                            <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                            <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                        <div class="result_card_infos">
+                            <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
+                            <div class="modele_infos">
+                                <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
                             </div>
-                            <div class="result_card_infos">
-                                <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
-                                <div class="modele_infos">
-                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
-                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
-                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
-                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
-                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
-                                </div>
-                                <div class="result_card_link text_center">
-                                    <p>Choisir ce véhicule</p>
-                                </div>
+                            <div class="result_card_link text_center">
+                                <p>Choisir ce véhicule</p>
                             </div>
-                        </article>
-                    </a>
-                    <a href="#" title="Modéle configuré">
-                        <article class="result_card">
-                            <div class="result_card_header">
-                                <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
-                                <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" title="Modéle configuré">
+                    <article class="result_card">
+                        <div class="result_card_header">
+                            <img class="result_card_img" src="../assets/img/cars/eco-sport.jpg" alt="Modèle eco-sport">
+                            <p class="result_card_price text_center">20.000€</p>
+                        </div>
+                        <div class="result_card_infos">
+                            <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
+                            <div class="modele_infos">
+                                <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
+                                <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
+                                <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
+                                <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
+                                <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
                             </div>
-                            <div class="result_card_infos">
-                                <h2 class="modele_name bold text_center">1.0 ecoboost hybrid 125 ch powershift</h2>
-                                <div class="modele_infos">
-                                    <p class="bold">Accélération 0-100 : <span class="modele_infos_data">9.6 secs</span></p>
-                                    <p class="bold">Puissance : <span class="modele_infos_data">92 kW/ 125 CH</span></p>
-                                    <p class="bold">Couples : <span class="modele_infos_data">170 NM</span></p>
-                                    <p class="bold">Crit'Air : <span class="modele_infos_data">1*</span></p>
-                                    <p class="bold">Transmission : <span class="modele_infos_data">Auto Powershift DCT</span></p>
-                                </div>
-                                <div class="result_card_link text_center">
-                                    <p>Choisir ce véhicule</p>
-                                </div>
+                            <div class="result_card_link text_center">
+                                <p>Choisir ce véhicule</p>
                             </div>
-                        </article>
-                    </a>
-                </div>
-
+                        </div>
+                    </article>
+                </a>
+            </div>
         </div>
+
+        <!-- Section newsletter -->
+        <?php include 'includes/newsletter.php' ?>
     </main>
     <!-- FIN DU MAIN -->
 

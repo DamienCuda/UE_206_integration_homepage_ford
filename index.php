@@ -120,7 +120,10 @@
 
         <!-- Section actualités -->
         <?php include 'templates/includes/actualites.php' ?>
-        <!-- End section actualités-->
+
+         <!-- Section newsletter -->
+         <?php include 'templates/includes/newsletter.php' ?>
+
     </main>
     <!-- FIN DU MAIN -->
 

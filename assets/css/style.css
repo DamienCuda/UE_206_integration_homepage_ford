@@ -51,6 +51,9 @@ li > a:hover{
 .inline_padding{
   padding-inline: 11%;
 }
+.upper{
+  text-transform: uppercase;
+}
 .bold{
   font-weight: bold;
 }
@@ -148,10 +151,31 @@ li > a:hover{
   grid-template-columns: 1fr 1fr;
 }
 
+/* Fil d'ariane */
+.breadcrumb{
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 1rem;
+}
+.breadcrumb li{
+  color: var(--cl-main-blue);
+}
+.breadcrumb li a h1{
+  font-size: 1rem;
+  font-weight: normal;
+}
+.breadcrumb li.active {
+  color: var(--cl-black);
+}
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 .25rem;
+  content: "|";
+}
 
 /* Actualités */
 #actualites_articles{
-  margin-block: 2rem;
+  margin-block: 2rem 4.5rem;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
@@ -209,7 +233,51 @@ li > a:hover{
   padding: 0.5rem;
 }
 
-
+/* Newsletter */
+#newsletter{
+  color: var(--cl-white );
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+  gap: 2rem;
+  height: 13rem;
+}
+#newsletter_title{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+#newsletter_subtitle{
+  font-size: 1.2rem;
+}
+#newsletter_input{
+  width: 100%;
+}
+#newsletter_input::placeholder{
+  font-style: italic;
+}
+#newsletter_btn{
+  padding: 0.6rem 2rem;
+  border: none;
+}
+#newsletter_form{
+  background-color: var(--cl-black);
+  padding: 3.2rem 2rem;
+  gap: 1rem;
+  transform: translate(-15px, -5rem);
+}
+#ford_quote, #ford_quote_next{
+  font-style: italic;
+  font-size: 3rem;
+  font-family: serif;
+}
+#ford_quote_next{
+  margin-left: 2.5rem;
+}
+#ford_quote::before{
+  content: '«';
+  margin-right: 0.5rem;
+  font-size: 4.5rem;
+  display: inline-block;
+}
 /* Media queries */
 
 @media(max-width : 45em){
@@ -253,5 +321,19 @@ li > a:hover{
   }
   #actualites_articles{
     padding-inline: 5%;
-}
+  }
+  #newsletter{
+    grid-template-columns: 1fr;
+    padding-inline: 0;
+    padding-top: 0;
+    height: 100%;
+    gap: 0;
+  }
+  #newsletter_quote{
+    padding-inline: 6%;
+    padding-block: 3.5rem;
+  }
+  #newsletter_form{
+    transform: translate(0);
+  }
 }

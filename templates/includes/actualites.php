@@ -11,19 +11,19 @@ if (strpos($pathname, 'index.php') !== false){
 // Tableau des actualités
 $actualites = [
     "0" => [
-        "date"      => "20<br/>Déc.",
+        "date"      => "20<br>Déc.",
         "img"       => $pathname."assets/img/joyeuses-fetes.jpg",
         "titre"     => "Ford vous souhaite de joyeuses fêtes de fin d'année",
         "url_cible" => "#",
     ],
     "1" => [
-        "date"      => "10<br/>Déc.",
+        "date"      => "10<br>Déc.",
         "img"       => $pathname."assets/img/ford-focus.jpg",
         "titre"     => "sortie de la nouvelle ford focus",
         "url_cible" => "#",
     ],
     "2" => [
-        "date"      => "04<br/>Déc.",
+        "date"      => "04<br>Déc.",
         "img"       => $pathname."assets/img/world.jpg",
         "titre"     => "les 7 nouveaux véhicules connectés qui ouvrent la voie à un avenir 100% électrique en europe pour ford",
         "url_cible" => "#",
@@ -51,4 +51,3 @@ $actualites = [
         <?php } ?>
     </div>
 </section>
-

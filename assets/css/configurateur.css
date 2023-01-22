@@ -1,31 +1,12 @@
-/* Fil d'ariane */
-.breadcrumb{
-    display: flex;
-    flex-wrap: wrap;
-    padding-block: 1rem;
-}
-.breadcrumb li{
-    color: var(--cl-main-blue);
-}
-.breadcrumb li a h1{
-    font-size: 1rem;
-    font-weight: normal;
-}
-.breadcrumb li.active {
-    color: var(--cl-black);
-}
-.breadcrumb li:not(:last-child)::after {
-    display: inline-block;
-    margin: 0 .25rem;
-    content: "|";
-}
-
 /*Section Configurateur */
 #configurateur{
     grid-template-columns: 30% 1fr;
     padding-left: 11%;
     background-color: var(--cl-main-blue);
 }
+#configurateur + #newsletter #newsletter_form{
+    transform: translateY(-3.5rem);
+  }
 
 /* Formulaire */
 .formulaire{
