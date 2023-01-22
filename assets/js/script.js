@@ -12,6 +12,7 @@ $(document).ready(function() {
 
     // Selection du type
     $type_input.change(function(){
+        $erreur.hide(); //On cache le message d'erreur en cas de clique multiple
         $vehicules.each(function(key, value){
             $(value).hide(); //On cache toutes les voitures
         })

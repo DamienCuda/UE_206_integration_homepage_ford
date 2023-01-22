@@ -7,7 +7,9 @@
 #configurateur + #newsletter #newsletter_form{
     transform: translateY(-3.5rem);
   }
-
+#erreur{
+    margin-top: 6rem;
+}
 /* Formulaire */
 .formulaire{
     color : var(--cl-white);
