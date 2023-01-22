@@ -136,12 +136,12 @@
                     <div class="text_center">
                         <label for="sujet">Sujet</label>
                         <select name="sujet" id="sujet" required>
-                            <option value="#">Prendre un rendez-vous</option>
+                            <option value="">Prendre un rendez-vous</option>
                             <option value="carrosserie">Carrosserie</option>
                             <option value="achat">Achat</option>
                         </select>                    
                         <label for="message">Votre message</label>
-                        <textarea name="message" id="message" type="textarea" rows="10" placeholder="Saisssez votre message" required></textarea>
+                        <textarea name="message" id="message" rows="10" placeholder="Saisssez votre message" required></textarea>
                     </div>                                            
                 </fieldset>
                 <button type="submit" class="btn_blue"> Envoyer ma demande</button>
