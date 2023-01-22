@@ -70,6 +70,7 @@ $voitures = [
 
 <!-- Affichage avec boucle sur le tableau des actualités -->
 <div class="result_card_container flex_container wrap">
+    <h2 id="erreur" hidden>Aucun résultat ;(</h2>
     <?php foreach($voitures as $voiture){?>
         <a class="model_card" href="#" title="Modéle configuré" data-color="<?= $voiture['data-color']?>" data-type="<?= $voiture['data-type']?>" data-power="<?= $voiture['data-power']?>" data-prix="<?= $voiture['data-prix']?>">
             <article class="result_card">
