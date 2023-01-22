@@ -53,7 +53,7 @@ $voitures = [
     ],
     "3" => [
         "data-color"    => "noir",
-        "data-type"     => "utilitaire",
+        "data-type"     => "utilitaires",
         "data-power"    => "500ch",
         "data-prix"     => "60000",
         "img"           => $pathname."assets/img/cars/utilitaire-noir.jpg",
@@ -71,7 +71,7 @@ $voitures = [
 <!-- Affichage avec boucle sur le tableau des actualités -->
 <div class="result_card_container flex_container wrap">
     <?php foreach($voitures as $voiture){?>
-        <a href="#" title="Modéle configuré" data-color="<?= $voiture['data-color']?>" data-type="<?= $voiture['data-type']?>" data-power="<?= $voiture['data-power']?>" data-prix="<?= $voiture['data-prix']?>">
+        <a class="model_card" href="#" title="Modéle configuré" data-color="<?= $voiture['data-color']?>" data-type="<?= $voiture['data-type']?>" data-power="<?= $voiture['data-power']?>" data-prix="<?= $voiture['data-prix']?>">
             <article class="result_card">
                 <div class="result_card_header">
                     <img class="result_card_img" src="<?= $voiture['img']?>" alt="Modèle eco-sport">

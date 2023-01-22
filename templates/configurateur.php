@@ -65,31 +65,31 @@
                         <p class="bold label">Couleur carosserie</p>
                         <div class="couleur_wrapper grid_container wrap">
                             <div class="couleur_container flex_container">
-                                <input type="radio" id="abyss" name="couleur">
+                                <input type="radio" id="abyss" name="couleur" data-color="bleu">
                                 <label class="bold" for="abyss">Bleu abysse</label>
                             </div>
                             <div class="couleur_container">
-                                <input type="radio" id="corail" name="couleur">
+                                <input type="radio" id="corail" name="couleur" data-color="rouge">
                                 <label class="bold" for="corail">Corail</label>
                             </div>
                             <div class="couleur_container">                                
-                                <input type="radio" id="moutarde" name="couleur">
+                                <input type="radio" id="moutarde" name="couleur" data-color="jaune">
                                 <label class="bold" for="moutarde">Moutarde</label>
                             </div>
                             <div class="couleur_container">
-                                <input type="radio" id="island" name="couleur">
+                                <input type="radio" id="island" name="couleur" data-color="bleu">
                                 <label class="bold" for="island">Bleu island</label>
                             </div>
                             <div class="couleur_container">
-                                <input type="radio" id="rouge" name="couleur">
+                                <input type="radio" id="rouge" name="couleur" data-color="rouge">
                                 <label class="bold" for="rouge">Rouge fantastic</label>
                             </div>
                             <div class="couleur_container">
-                                <input type="radio" id="glacier" name="couleur">
+                                <input type="radio" id="glacier" name="couleur" data-color="blanc">
                                 <label class="bold" for="glacier">Blanc glacier</label>
                             </div>
                             <div class="couleur_container">
-                                <input type="radio" id="agathe" name="couleur">
+                                <input type="radio" id="agathe" name="couleur" data-color="noir">
                                 <label class="bold" for="agathe">Noir agathe</label>
                             </div>
                         </div>

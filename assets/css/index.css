@@ -39,6 +39,7 @@
 .model_card{
   box-shadow: 0 0 20px var(--gray-light);
   transition: all 200ms ease-in-out;
+  height: fit-content;
 }
 .model_card:hover{
   transform: scale(1.05);
