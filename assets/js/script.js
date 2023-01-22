@@ -8,6 +8,7 @@ $(document).ready(function() {
     $color_input = $('input[name=\'couleur\']');
     $result_card_container = $('.result_card_container');
     $erreur = $('#erreur');
+    $reset_btn = $('#reset_btn');
 
     // Selection du type
     $type_input.change(function(){
@@ -85,4 +86,12 @@ $(document).ready(function() {
             $erreur.show();  //On gère l'erreur
         }
     })
+
+    $reset_btn.click(function(){
+        $erreur.hide();
+        $vehicules.each(function(key, value){
+            $(value).show(); //On gère l'erreur
+        })
+    })
+
 });

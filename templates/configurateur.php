@@ -94,6 +94,7 @@
                             </div>
                         </div>
                     </fieldset>
+                    <button id="reset_btn" type="reset" class="btn_white"> Supprimer les filtres</button>
                 </form>
             </aside>
             <!-- Cartes résultats -->
